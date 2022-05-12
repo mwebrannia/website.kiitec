@@ -17,8 +17,9 @@ html {
     text-align: center;
     color: #00008b;
     font-size: 40px;
-    transform: translate(0, -80%)  
+    transform: translate(0, -80%) 
 }
+
 
 #title{
     position: inherit;
@@ -35,7 +36,7 @@ html {
     background: #ffffff;
     text-align: center;
     padding: 10px;
-    height: 250px;
+    height: 240px;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -131,4 +132,8 @@ p.pgf{
     width: auto;
 }
 
+
+.wlc{
+    line-height: auto;
+}
 
