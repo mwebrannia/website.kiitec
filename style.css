@@ -1,0 +1,142 @@
+html {
+    background-color: gray;
+}
+
+#fixed-footer{
+    width:97.5%;
+    position: fixed;
+    padding: 5px; 
+    bottom: 0.5%;
+    background: #333;
+    color: #fff;  
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+#title-wrap {
+    height: 70px;
+    width: 700px;
+    border: 1px #ffffff;
+    position: absolute;
+    top: 87.5px;
+    left: 450px;
+}
+
+.dbk {
+    display: block;
+    position: inherit;
+    text-align: center;
+    color: #00008b;
+    font-size: 40px;
+    transform: translate(0, -80%)
+}
+
+#s_title{
+    position: inherit;
+    background: white;
+    height: 100px;
+}
+
+#dpl{
+    box-sizing: content-box;
+    float: none;
+    display: inline-block;
+    position: sticky;
+    background: #ffffff;
+    text-align: center;
+    padding: 10px;
+    height: 250px;
+}
+
+.title{
+    transform: translate(0, -70%)
+}
+h5 {
+    font-family: Verdana;
+}
+
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 40px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #0000ff;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+#automat{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px 10px 10px 10px ;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px;
+}
+
+#ece {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px 10px 10px 10px ;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px;   
+}
+
+
+#course{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    height: fit-content;
+    width: auto;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid darkgray;
+    background-color: darkgray;
+    height: fit-content;
+    width: auto;
+    position: block;
+    padding: 5px;
+}
+
+#telec{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px 10px 10px 10px ;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px;   
+}
+
+p{
+    background-color: rgba(56, 56, 56, 0.808);
+    border-radius: 10px 10px 0px 0px;
+    text-align: auto;
+    position: relative;
+    top: -18px;
+}
+
